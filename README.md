@@ -1,4 +1,4 @@
 zero
 ====
 
-Base WordPress Theme
+Zero is a starter WordPress theme built with Bootstrap.

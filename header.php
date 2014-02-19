@@ -36,8 +36,8 @@
 			<div class="container">
 
 				<hgroup id="site-branding">
-					<h1 class="site-title"><a href="<?php echo home_url('/'); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-					<h2 class="site-description"><?php bloginfo('description'); ?></h2>
+					<h1 id="site-title"><a href="<?php echo home_url('/'); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+					<h2 id="site-description"><?php bloginfo('description'); ?></h2>
 				</hgroup><!-- #site-branding -->
 
 				<?php get_search_form(); ?>

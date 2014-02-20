@@ -34,18 +34,20 @@
 			
 		<header id="header" role="banner">
 			<div class="container">
+				<div class="inner">
 
-				<hgroup id="site-branding">
-					<h1 id="site-title"><a href="<?php echo home_url('/'); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-					<h2 id="site-description"><?php bloginfo('description'); ?></h2>
-				</hgroup><!-- #site-branding -->
+					<hgroup id="site-branding">
+						<h1 id="site-title"><a href="<?php echo home_url('/'); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+						<h2 id="site-description"><?php bloginfo('description'); ?></h2>
+					</hgroup><!-- #site-branding -->
 
-				<?php get_search_form(); ?>
-				
-				<nav id="header-navigation" role="navigation">
-					<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-					<?php wp_nav_menu(array('theme_location' => 'header')); ?>
-				</nav><!-- #header-navigation -->
+					<?php get_search_form(); ?>
+					
+					<nav id="header-navigation" role="navigation">
+						<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+						<?php wp_nav_menu(array('theme_location' => 'header')); ?>
+					</nav><!-- #header-navigation -->
 
+				</div><!-- .inner -->
 			</div><!-- .container -->
 		</header><!-- #header -->

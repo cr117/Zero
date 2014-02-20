@@ -1,4 +1,4 @@
-		<footer id="site-footer" role="contentinfo">
+		<footer id="footer" role="contentinfo">
 			<div class="container">
 				<div class="inner">
 
@@ -8,7 +8,7 @@
 
 				</div><!-- .inner -->
 			</div><!-- .container -->
-		</footer><!-- #site-footer -->
+		</footer><!-- #footer -->
 
 	</div><!-- #page -->
 
